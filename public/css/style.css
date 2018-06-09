@@ -1,0 +1,143 @@
+body {margin: 0;}
+
+/* MENU HORIZONTAL */
+
+.imagen{
+    width:100%; margin-left: 50%;
+}
+.spacing-top{margin-top: 30px;}
+.img-email{width: 50%; margin-top: 10px;}
+.img-icono{width: 5%;}
+.img{background-image: url("http://localhost/webmail2/public/images/icono.png");}
+
+.title-h1{color: #000; text-align: right;}
+
+.registrado{font-weight: bold; text-decoration: underline; color:#000;}
+
+.btn-read{
+    background-color: transparent;
+    border: 0;
+    width: 100%;
+    margin-left: 2px;
+    text-align: left;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+}
+
+.btn-read:hover{
+    text-decoration: underline;
+   
+}
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #675DBF   ; /* Green */
+}
+.button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #f44336; /* Green */
+}
+.button6 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #8179C5  ;
+}
+
+.button6:hover {
+    background-color: #8179C5  ;
+    color: white;
+}
+.button7 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #5C5595   ;
+}
+
+.button7:hover {
+    background-color: #5C5595    ;
+    color: white;
+}
+.color{
+    background-color: #E7F1FE   ;
+}
+.color2{
+    background-color: #E7F1FE  ;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#7267B1  ;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+.imagen{
+    flex: 100%; width:100%; margin-left: 30%;
+}
+@media screen and (min-width: 600px) and (max-width: 800px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+.imagen{
+    width:80%;margin-left:10%;margin-right: 10%;
+}
+
+@media screen and (min-width: 260px) and (max-width: 599px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+    .imagen{
+    flex: 100%; width:80%;margin-left:20%;}
+}
+.button6 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid  #8179C5;
+}
+
+.button6:hover {
+    background-color:  #8179C5;
+    color: white;
+}
+.button7 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #5C5595  ;
+    margin-top: 30px;
+}
+
+.button7:hover {
+    background-color: #5C5595  ;
+    color: white;
+}
+.registrar{
+    font-weight: bold; text-decoration: underline; color:#000; margin-left: 30px;
+
+}
+.colo3{
+    background-color: #F3F5FD;  
+}
